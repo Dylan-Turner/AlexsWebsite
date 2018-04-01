@@ -16,3 +16,9 @@
 	font-family: "Baskerville Old Face" !important;
 	color: black !important;
 }
+.red{
+	color: red !important;
+}
+#email{
+	margin-left: -40px;
+}
