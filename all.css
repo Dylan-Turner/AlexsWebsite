@@ -1,6 +1,3 @@
-body{
-	font-family: "Baskerville Old Face" !important;
-}
 .width{
 	width: 70%;
 	margin-left: 15%
@@ -11,6 +8,11 @@ body{
 	background-size: cover;
 }
 #titleImg h1{
+	font-family: "Baskerville Old Face" !important;
 	color: black !important;
 	font-size: 300%;
+}
+#titleImg h2{
+	font-family: "Baskerville Old Face" !important;
+	color: black !important;
 }
