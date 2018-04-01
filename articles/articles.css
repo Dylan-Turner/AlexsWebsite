@@ -1,0 +1,28 @@
+#disqus_thread{
+	width: 60%;
+	margin-left: 20%;
+}
+#toTop{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	text-align: center;
+	z-index: 1000000;
+}
+.color{
+	background-color: #7100fc !important;
+}
+#nav{
+	width: 100%;
+	background-color: rgba(113, 0, 252,0.9);
+}
+#mainNav{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(113, 0, 252,0.9);
+}
+#content{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 5%;
+}	
