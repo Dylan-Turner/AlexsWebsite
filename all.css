@@ -16,6 +16,6 @@
 	font-family: "Baskerville Old Face" !important;
 	color: black !important;
 }
-.red{
-	color: red !important;
+.invisible{
+	opacity: 0;
 }
