@@ -1,6 +1,7 @@
 p{
   font-color: #111;
-  font-size: 21px;
+  font-size: 18px;
+
 }
 h1, h2, h3, h4{
   font-color: black;
@@ -27,6 +28,9 @@ h1, h2, h3, h4{
 .navbar{
 	padding-left: 256px;
 	padding-right: 256px;
+}
+.white{
+	color: white !important;
 }
 
 
