@@ -45,3 +45,14 @@
 #descrip{
 	font-size: 150% !important;
 }
+.white{
+	color: white !important;
+}
+.footer input{
+	margin-top: -5px;
+	margin-left: -15px !important;
+}
+.footerEmail{
+	margin-top: 10px !important;
+	margin-left: -50px !important;
+}
