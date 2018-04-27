@@ -17,6 +17,7 @@ function loadjscssfile(filename, filetype){
 loadjscssfile("https://use.fontawesome.com/releases/v5.0.7/js/all.js", "js") //dynamically load and add this .js file 
 loadjscssfile("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css", "css") ////dynamically load and add this .css file
 loadjscssfile("articles.css", "css")
+loadjscssfile("../all.css", "css")
 loadjscssfile("articles.js", "js")
 
 
