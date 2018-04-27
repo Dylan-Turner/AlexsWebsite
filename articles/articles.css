@@ -18,4 +18,10 @@ h1, h2, h3, h4{
 .headline{
 	font-size: 42px !important;
 }
+.is-dark{
+	background-color: #24292e !important;
+}
+.customDark{
+	background-color: #2b3137 !important;
+}
 
