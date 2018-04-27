@@ -24,4 +24,9 @@ h1, h2, h3, h4{
 .customDark{
 	background-color: #2b3137 !important;
 }
+.navbar{
+	padding-left: 256px;
+	padding-right: 256px;
+}
+
 
