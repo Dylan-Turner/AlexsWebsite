@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110490316-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-110490316-1');
+		</script>
+		<title>Political Pie - Template Article</title>
+
+
+		<script type="text/javascript" src="https://wikiki.github.io/js/quickview.js"></script>
+		<script type="text/javascript" src="articlesLinks.js"></script>
+  		<script type="text/javascript" src="articlesInclude.js"></script>
+  		<link rel="stylesheet" href="https://wikiki.github.io/css/documentation.css?v=201801141121">
+		<script type="text/javascript" src="https://wikiki.github.io/node_modules/bulma-extensions/bulma-quickview/dist/bulma-quickview.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="edit/content-tools.min.css">
+		<script src="edit/content-tools.min.js"></script>
+   		<script src="editor.js"></script>
+		<style>
+			#quickMenuButton{
+				position: fixed;
+				bottom: 32px;
+				right: 32px;
+			}
+
+			/* Alignment styles for images, videos and iframes in editable regions */
+
+			/* Center (default) */
+			[data-editable] iframe,
+			[data-editable] image,
+			[data-editable] [data-ce-tag=img],
+			[data-editable] img,
+			[data-editable] video {
+			    clear: both;
+			    display: block;
+			    margin-left: auto;
+			    margin-right: auto;
+			    max-width: 100%;
+			}
+
+			/* Left align */
+			[data-editable] .align-left {
+			    clear: initial;
+			    float: left;
+			    margin-right: 0.5em;
+			}
+
+			/* Right align */
+			[data-editable].align-right {
+			    clear: initial;
+			    float: right;
+			    margin-left: 0.5em;
+			}
+
+			/* Alignment styles for text in editable regions */
+			[data-editable] .text-center {
+			    text-align: center;
+			}
+
+			[data-editable] .text-left {
+			    text-align: left;
+			}
+
+			[data-editable] .text-right {
+			    text-align: right;
+			}
+​			
+			.author {
+            font-style: italic;
+            font-weight: bold;
+        }
+		</style>
+
+
+	</head>
+	<body>
+		<div include="articleMenu.html"></div>  
+		<br/>
+		<br/>
+		<button id="quickMenuButton" class="button is-primary" data-show="quickview" data-target="quickviewDefault">Show Menu</button>
+
+	  <div id="quickviewDefault" class="quickview">
+			<header class="quickview-header">
+				<p class="title">Edit Menu</p>
+				<span class="delete" data-dismiss="quickview"></span>
+			</header>
+			<div class="quickview-body">
+				<div class="quickview-block">
+					<br/>
+					
+
+
+
+				</div>
+			</div>
+			<footer class="quickview-footer">
+				<p>
+					This is cool eh?  <span class="delete" data-dismiss="quickview"></span>
+				</p>
+			</footer>
+		</div>
+
+		<div class="columns">
+		  <div class="column">
+
+		  </div>
+		  <div data-editable data-name="main-content" class="column is-5">
+			  	<div class="media">
+			      <div class="media-left">
+			        <figure class="image is-48x48">
+			          <img id="authImg" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+			        </figure>
+			      </div>
+			      <div id="authorTxt" class="media-content">
+			        <p class="is-small"><strong>By: The Uninformed Reader Team</strong> </p>
+			        <p class="s-small">This article is by the whole team, enjoy!</p>
+			        <p class="s-small">Fri 27 * Apr 18</p>
+			      </div>
+			  </div>
+			  <br/>
+			    <h1 class="title headline">This is the title of the article</h1>
+			    <h1 class="subtitle ">It should be short and sweet with a subtitle</h1>
+			    <br/>
+			    <p>TL; DR
+				<br/>
+			    </p>
+			    <br/>
+			    <h3 class="title is-4">You can then have a section title here</h3>
+			    <p> This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  </p>
+
+			  <br/>
+			  <h3 class="title is-4">You can then have a section title here</h3>
+			  <h3 class="subtitle is-4">You can then have a image below</h3>
+			  <img class="articleImg" src="https://cdn-images-1.medium.com/max/1600/1*j3IGXiLI8vsHfR0C0aDcyg@2x.png"/>
+			  <br/>
+			  <br/>
+			  <p> This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  </p>
+			  <br/>
+			  <article class="message">
+				  <div class="message-body">
+				    Tell your friends to subscribe lol
+				  </div>
+				</article>
+
+			<p> This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text <br/><br/>
+
+				Thanks for reading, subscribe!
+			 </p>
+			 <hr/>
+			 <span class="tag">Politics</span> <span class="tag">Global</span> <span class="tag">Trump</span> 
+			 <br/>
+			 Published on the 27/4/18 
+			 <hr/>
+			 <div class="columns">
+			  <div class="column">
+
+			    <div class="media">
+			      <div class="media-left">
+			        <figure class="image is-48x48">
+			          <img id="authImg" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+			        </figure>
+			      </div>
+			      <div id="authorTxt" class="media-content">
+			        <p class="is-small"><strong>By: The Uninformed Reader Team</strong> </p>
+			        <p class="s-small">This article is by the whole team, enjoy!</p>
+			        <p class="s-small">Fri 27 * Apr 18</p>
+			      </div>
+
+			  	</div>
+			  </div>
+			  <div class="column">
+			    <div class="media">
+			      <div class="media-left">
+			        <figure class="image is-48x48">
+			          <img id="authImg" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+			        </figure>
+			      </div>
+			      <div id="authorTxt" class="media-content">
+			        <p class="is-small"><strong>Check out our next article!</strong> </p>
+			        <p class="s-small">ITS ABOUT TRUMP!</p>
+			      </div>
+			  	</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="column">
+
+		  </div>
+		</div>
+
+		<footer include="../footer.html" id="footer"></footer>
+	</body>
+	<script>
+		includeHTML();
+	</script>
+</html>
