@@ -1,3 +1,9 @@
+body{
+	background-color: #f2F0F2 !important;
+}
+.tile{
+	border-radius: 0 !important;
+}
 .width{
 	width: 70%;
 	margin-left: 15%
