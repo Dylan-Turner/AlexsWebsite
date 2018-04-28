@@ -1,6 +1,6 @@
 window.onload = function() {
 	var a = document.getElementById("toTop")
-	a.onclick = scroll;
+	// a.onclick = scroll;
 	function scroll(){	
 		var y = window.scrollY;
 		console.log(y);
