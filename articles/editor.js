@@ -51,6 +51,24 @@ var editor;
         }
     };
 
+
+    // Add support for auto-save
+		editor.addEventListener('start', function (ev) {
+		    var _this = this;
+
+		    // Call save every 30 seconds
+		    function autoSave() {
+		        _this.save(true);
+		    };
+		    this.autoSaveTimer = setInterval(autoSave, 30 * 1000);
+		});
+
+		editor.addEventListener('stop', function (ev) {
+		    // Stop the autosave
+		    clearInterval(this.autoSaveTimer);
+		});
+
+
     xhr = new XMLHttpRequest();
     xhr.addEventListener('readystatechange', onStateChange);
     xhr.open('POST', '/save-my-page');

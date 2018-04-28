@@ -20,10 +20,9 @@
 		<script type="text/javascript" src="https://wikiki.github.io/node_modules/bulma-extensions/bulma-quickview/dist/bulma-quickview.min.js"></script>
 		
 		<link rel="stylesheet" type="text/css" href="edit/content-tools.min.css">
-		<script src="edit/content-tools.min.js"></script>
-   		<script src="editor.js"></script>
+		
 		<style>
-			#quickMenuButton{
+			#save{
 				position: fixed;
 				bottom: 32px;
 				right: 32px;
@@ -80,48 +79,28 @@
 
 	</head>
 	<body>
+		<script src="edit/content-tools.min.js"></script>
+   		<script src="editor.js"></script>
 		<div include="articleMenu.html"></div>  
 		<br/>
 		<br/>
-		<button id="quickMenuButton" class="button is-primary" data-show="quickview" data-target="quickviewDefault">Show Menu</button>
-
-	  <div id="quickviewDefault" class="quickview">
-			<header class="quickview-header">
-				<p class="title">Edit Menu</p>
-				<span class="delete" data-dismiss="quickview"></span>
-			</header>
-			<div class="quickview-body">
-				<div class="quickview-block">
-					<br/>
-					
-
-
-
-				</div>
-			</div>
-			<footer class="quickview-footer">
-				<p>
-					This is cool eh?  <span class="delete" data-dismiss="quickview"></span>
-				</p>
-			</footer>
-		</div>
-
+		<button id="save" class="button is-success"> Save</button>
 		<div class="columns">
 		  <div class="column">
 
 		  </div>
 		  <div data-editable data-name="main-content" class="column is-5">
-			  	<div class="media">
-			      <div class="media-left">
-			        <figure class="image is-48x48">
-			          <img id="authImg" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-			        </figure>
-			      </div>
-			      <div id="authorTxt" class="media-content">
-			        <p class="is-small"><strong>By: The Uninformed Reader Team</strong> </p>
-			        <p class="s-small">This article is by the whole team, enjoy!</p>
-			        <p class="s-small">Fri 27 * Apr 18</p>
-			      </div>
+		  	<div class="media">
+		      <div class="media-left">
+		        <figure class="image is-48x48">
+		          <img id="authImg" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+		        </figure>
+		      </div>
+		      <div id="authorTxt" class="media-content">
+		        <p class="is-small"><strong>By: The Uninformed Reader Team</strong> </p>
+		        <p class="s-small">This article is by the whole team, enjoy!</p>
+		        <p class="s-small">Fri 27 * Apr 18</p>
+		      </div>
 			  </div>
 			  <br/>
 			    <h1 class="title headline">This is the title of the article</h1>
@@ -142,11 +121,11 @@
 			  <br/>
 			  <p> This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text.  </p>
 			  <br/>
-			  <article class="message">
+			  <div class="message">
 				  <div class="message-body">
 				    Tell your friends to subscribe lol
 				  </div>
-				</article>
+				</div>
 
 			<p> This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text This is some random text <br/><br/>
 
