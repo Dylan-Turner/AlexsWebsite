@@ -1,5 +1,8 @@
 window.addEventListener('load', function() {
-    var editor;
+    setTimeout(function(){ 
+
+    	var editor;
+
     ContentTools.StylePalette.add([
     new ContentTools.Style('Author', 'author', ['p'])
 	]);
@@ -46,4 +49,8 @@ window.addEventListener('load', function() {
     xhr.open('POST', '/save-my-page');
     xhr.send(payload);
 });
+
+
+    }, 1000);
+   
 });
