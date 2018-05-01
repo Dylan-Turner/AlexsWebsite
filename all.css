@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+*{
+	font-family: 'Montserrat', sans-serif !important;
+}
+.mainTitle{
+	height: 64px;
+	color: white;
+	line-height: 64px;
+	font-size: 46px;
+	text-align: center;
+}
 .tile{
 	border-radius: 0 !important;
 }
@@ -7,17 +18,15 @@
 	margin-left: 15%
 }
 #titleImg{
-	font-family: "Baskerville Old Face"; 
 	background-image: url("background.png");
 	background-size: cover;
 }
 #titleImg h1{
-	font-family: "Baskerville Old Face" !important;
+	
 	color: white !important;
 	font-size: 300%;
 }
-#titleImg h2{
-	font-family: "Baskerville Old Face" !important;
+#titleImg h2{;
 	color: #222 !important;
 }
 #titleImg .container{
