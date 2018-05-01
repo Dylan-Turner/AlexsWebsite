@@ -3,6 +3,11 @@
 *{
 	font-family: 'Montserrat', sans-serif !important;
 }
+.mainTitleImg{
+
+	height: 64px !important;
+	width: 64px !important;
+}
 .mainTitle{
 	height: 64px;
 	color: white;
