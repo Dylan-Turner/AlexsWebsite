@@ -15,8 +15,9 @@
 	line-height: 64px;
 	font-size: 46px;
 	text-align: center;
+}
+.menuBorder{
 	border-bottom: 1px solid white;
-	width: 60%;
 }
 
 .tile{
