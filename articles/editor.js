@@ -1,5 +1,3 @@
-
-
 window.addEventListener('load', function() {
     
  myVar = setTimeout(start(), 3000);
