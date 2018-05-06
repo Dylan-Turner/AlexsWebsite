@@ -3,12 +3,22 @@
 *{
 	font-family: 'Montserrat', sans-serif !important;
 }
-
+.fixed{
+	position: fixed !important;
+	width:100%;
+}
 .mainTitleImg{
 	height: 35px;
 	margin-right: 10px;
 }
-
+#nav{
+	top: 65px;
+	z-index: 999 !important;
+}
+#mainTitleContainer{
+	z-index: 999 !important;
+	top: 0;
+}
 .mainTitle{
 	height: 64px;
 	color: white;
@@ -27,6 +37,7 @@
 	margin-left: 15%
 }
 #titleImg{
+	padding-top: 65px;
 	background-image: url("news.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
