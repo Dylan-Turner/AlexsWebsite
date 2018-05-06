@@ -3,6 +3,9 @@
 *{
 	font-family: 'Montserrat', sans-serif !important;
 }
+.noRound{
+	border-radius: 0 !important;
+}
 .fixed{
 	position: fixed !important;
 	width:100%;
