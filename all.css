@@ -28,8 +28,10 @@
 	margin-left: 15%
 }
 #titleImg{
-	background-image: url("background.png");
-	background-size: cover;
+	background-image: url("news.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 #titleImg h1{
 	
@@ -37,10 +39,10 @@
 	font-size: 300%;
 }
 #titleImg h2{;
-	color: #222 !important;
+	color: #eee !important;
 }
 #titleImg .container{
-	background-color: rgba(22,22,22,0.2);
+	background-color: rgba(0,0,0,0.3);
 	padding: 32px;
 }
 .invisible{
