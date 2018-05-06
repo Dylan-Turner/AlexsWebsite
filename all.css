@@ -5,16 +5,15 @@
 }
 
 .mainTitleImg{
-	height: 46px !important;
-	width: 46px !important;
-	line-height: 64px;
+	height: 35px;
+	margin-right: 10px;
 }
+
 .mainTitle{
 	height: 64px;
 	color: white;
 	line-height: 64px;
 	font-size: 46px;
-	text-align: center;
 }
 .menuBorder{
 	border-bottom: 1px solid white;
