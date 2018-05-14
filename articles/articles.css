@@ -42,6 +42,10 @@ h1, h2, h3, h4{
 }
 .specialImg{
   width: 30% !important;
+  margin: 2%;
+}
+.left{
+  float: left !important;
 }
 
 
