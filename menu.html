@@ -2,8 +2,20 @@
   <img class="mainTitleImg" src="menuImg.png"/> <span class="mainTitle">The Uninformed Reader</span> 
 </div>
 
-<nav id="nav" class="fixed navbar is-dark">
-      <div class="navbar-menu is-active">
+<nav id="nav" class="fixed navbar is-dark is-mobile">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="../index.html">
+       Home
+    </a>
+
+    <a id="menuButton" role="button" class="navbar-burger" aria-label="menu" onclick="menuEXP()" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  
+      <div id="mainNav" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="index.html">
             Home

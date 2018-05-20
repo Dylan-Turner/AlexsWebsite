@@ -1,3 +1,8 @@
+function menuEXP(){
+    var a = document.getElementById("mainNav");
+    a.classList.toggle('is-active');
+}
+
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -26,3 +31,5 @@ function includeHTML() {
   }
 }
 includeHTML();
+
+
