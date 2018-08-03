@@ -1,0 +1,36 @@
+<script>
+	
+alert("a")
+	var randomNumberGenerator;
+	function startGame(){
+		randomNumberGenerator = Math.floor((Math.random() * 10) + 1);
+		var guess = prompt("Enter your guess: ");
+		while (true){
+			if (guess < randomNumberGenerator){
+				alert("Your guess is too low. ");
+				guess = prompt("Enter your guess: ");
+			}
+			else if (guess > randomNumberGenerator){
+				alert("Your guess is too high. ");
+				guess = prompt("Enter your guess: ");
+			}
+			else if (guess == randomNumberGenerator){
+				alert("Correct!");
+				return;
+			}
+			else if (guess == ""){
+				alert("You must enter a number.");
+				guess = prompt("Enter your guess: ");
+			}
+			else if (guess == null){
+				alert("Hahah! You cannot escape me...");
+				guess = promt("Enter your guess: ");
+			}
+		}
+		return;
+	}
+
+</script>
+<p>
+	aaa
+</p>
